@@ -10,6 +10,8 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #222;
   background: #f7f5f0;
+  border-left: solid firebrick 25px;
+  border-right: solid firebrick 25px;
 }
 /* Link Styles */
 
