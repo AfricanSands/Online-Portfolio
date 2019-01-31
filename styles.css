@@ -106,7 +106,7 @@ header .profile-image:hover {
 }
 
 .card_2 {
-  margin: auto;
+  margin: 20px auto 40px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
@@ -117,6 +117,11 @@ header .profile-image:hover {
   transition: all .5s;
   line-height: 1.6em;
 }
+
+.card_2:hover {
+  border-color: firebrick;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -125,14 +130,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
-  color: white;
+  background: yellow;
+  color: firebrick;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: orange;
 }
 
 footer {
@@ -214,7 +219,8 @@ a.social:hover {
   footer {
     font-size: 1.3em;
     max-width: cover;
-    margin: 40px auto;
+    margin: auto;
   }
 
 }
+/* Experience Page additions */
