@@ -232,3 +232,11 @@ a.social:hover {
 
 }
 /* Experience Page additions */
+.bg-img {
+  width: 800px;
+  height: 300px;
+  margin-top: 70px;
+  border: solid black 4px;
+  border-radius: 5px;
+  overflow: hidden;
+}
