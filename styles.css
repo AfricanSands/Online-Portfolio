@@ -79,17 +79,11 @@ header .profile-image:hover {
   transform: scale(1.5) rotate(360deg);
 }
 
-.page_image {
-  width: cover;
-  margin: auto;
-  overflow: hidden;
-  height: 250px;
-}
-
 .tag {
   background-color: white;
   color: black;
   padding: 10px;
+  border: solid firebrick 3px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
@@ -149,7 +143,6 @@ ul.skills {
 }
 
 footer {
-  width: cover;
   min-height: 30px;
   padding: 20px 0 40px 20px;
   background-color: firebrick;
@@ -226,7 +219,6 @@ a.social:hover {
 
   footer {
     font-size: 1.3em;
-    max-width: cover;
     margin: auto;
   }
 
